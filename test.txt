@@ -2,3 +2,5 @@
 diep write
 master write
 
+create conflict
+
