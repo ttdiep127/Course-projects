@@ -1,0 +1,186 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+div {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 0px 20px;
+background-color: #eaa9c7;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 15px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0px 24px 5px 10px;
+}
+
+select {
+  padding: 2px 0px 0px 10px;
+  height: 35px;
+  border-radius: 2px;
+  width: 100px;
+}
+
+.regis{
+  font-size: 15px;
+  float: right;
+  height: 30px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  border-radius: 5px;
+  font-style: normal;
+  width:50%;
+  border: 1px solid #3ac162;
+   margin-bottom: 10px;
+   
+}
+.sm_login{
+	  font-size: 15px;
+  float: right;
+  height: 30px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  border-radius: 5px;
+  font-style: normal;
+  width:100%;
+  border: 1px solid #3ac162;
+   margin-bottom: 10px;
+}
+.sm_regis{
+		  font-size: 15px;
+  float: right;
+  height: 30px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  border-radius: 5px;
+  font-style: normal;
+  width:45%;
+  border: 1px solid #3ac162;
+   margin-bottom: 10px;
+}
+.city{
+	font-size: 17px;
+  float: left;
+  width:40%;
+   margin:5px;
+}
+#status{
+	 width:100%;
+}
+.job{
+	font-size: 17px;
+  float: right;
+  width:45%;
+   margin:5px;
+}
+.back{
+  float: left;
+	font-size: 15px;
+  height: 30px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  border-radius: 5px;
+  font-style: normal;
+  width:40%;
+  border: 1px solid #3ac162;
+   margin-bottom: 10px;
+}
+
+fieldset {
+	background-color: #eaa9c7;
+  margin-bottom: 10px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+.sex{
+	margin: 2px 10px 10px 40px;
+	
+}
+.noshow{
+	width: 30px;
+	margin: 12px 10px 10px 40px;
+	height: 30px;
+}
+.profile{
+	margin-top: 90px;
+}
+.login{
+	margin-top: 100px;
+}
+.infobase {
+	margin-top: 40px;
+}
+}
+@media screen and (min-width: 480px) {
+
+  form {
+  background-color: #eaa9c7;
+    max-width: 980px;
+    color: #720035;
+    font-size: 20px;
+ }
+}
